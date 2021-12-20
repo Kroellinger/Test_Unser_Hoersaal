@@ -11,7 +11,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         int x = 1;
-        int x = 2;
+        int a= 2;
+        int b = 2;
     }
 
 }
