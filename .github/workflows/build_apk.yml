@@ -3,7 +3,7 @@ name: Minimal Android CI Workflow
 on:
   push:
     branches:
-      - main
+      - meister
 
 jobs:
   test:
@@ -51,7 +51,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-  
           release_name: Release ${{ github.ref }}
       - name: Upload Release APK
         id: upload_release_asset
